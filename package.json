@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdiefenbach83/MBA08-Atividade-Previa.git"
+    "url": "git+https://github.com/jdiefenbach83/MBA08-Trabalho-Pratico.git"
   },
   "keywords": [
     "node.js"
@@ -18,11 +18,14 @@
   "author": "Jefferson Diefenbach",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jdiefenbach83/MBA08-Atividade-Previa/issues"
+    "url": "https://github.com/jdiefenbach83/MBA08-Trabalho-Pratico/issues"
   },
-  "homepage": "https://github.com/jdiefenbach83/MBA08-Atividade-Previa#readme",
+  "homepage": "https://github.com/jdiefenbach83/MBA08-Trabalho-Pratico#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
-  }
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "type": "module"
 }
